@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The following is a pie chart showing your progress:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="16dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pie_chart"
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:layout_below="@id/text_view"
+            android:layout_marginBottom="70dp"/>
+        <Button
+            android:id="@+id/open_bottom_sheet_button"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+            android:text="@string/open_bottom_sheet"
+            android:layout_below="@id/pie_chart"
+            android:layout_marginBottom="60dp"
+            android:layout_gravity="center" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

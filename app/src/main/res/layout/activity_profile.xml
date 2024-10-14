@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/cropped_image"
+    android:contentDescription="@string/profile_picture_desc"
+    android:scaleType="centerCrop"
+    android:background="@drawable/circular_shape" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kay"
+        android:textSize="20sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jokmarierjokg9@gmail.com"
+        android:textSize="16sp"/>
+
+    <!-- Edit Profile Button -->
+    <Button
+        android:id="@+id/edit_profile_button"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Edit Profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout History" />
+
+    <ListView
+        android:id="@+id/workout_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

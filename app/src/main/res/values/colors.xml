@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_red">#7CC561</color>
+    <color name="red">#7CC561</color>
+
+    <color name="colorPrimary">#6200EE</color>
+
+        <color name="dark_blue_500">#7CC561</color> <!-- Dark Blue -->
+        <color name="dark_blue_700">#7CC561</color> <!-- Darker Blue -->
+        <color name="dark_blue_accent">#006699</color> <!-- Accent Color -->
+    <color name="colorPrimaryDarkBlue">#7CC561</color>
+
+         <!-- Purple -->
+    <color name="colorPrimaryDark">#3700B3</color>    <!-- Dark Purple -->
+    <color name="colorAccent">#03DAC5</color>         <!-- Teal -->
+    <color name="yourTextColor">#000000</color>       <!-- Black -->
+    <color name="yourBackgroundColor">#FFFFFF</color>  <!-- White -->
+
+</resources>

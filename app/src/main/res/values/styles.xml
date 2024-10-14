@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/my_red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColor">@color/yourTextColor</item> <!-- Set default text color -->
+        <!-- Set default background color -->
+
+        <item name="popupMenuStyle">@style/CustomPopupMenu</item>
+    </style>
+
+    <!-- Custom popup menu style for changing overflow background color -->
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/black</item>
+    </style>
+
+</resources>

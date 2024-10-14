@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fitness Tracker</string>
+
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="open_bottom_sheet">Open Bottom Sheet</string>
+    <string name="icon1_desc">Description of Icon 1</string>
+    <string name="profile_picture_desc">Profile Picture</string>
+    <string name="workout">Workout</string>
+    <string name="sleep_track">Sleep Track</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="hydration">Hydration</string>
+
+    <!-- Title for the Bottom Sheet -->
+    <string name="bottom_sheet_title">Select an Option</string>
+
+</resources>
